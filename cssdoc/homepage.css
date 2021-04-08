@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    size: 35%;
+    flex-wrap: wrap;
+}
+#pic1 {
+    margin-top: 10%;
+    padding: 10px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 10px;
+   border-radius: 50%;
+   height: 500px;
+   width:360px;
+   margin-left: 200px;
+   animation: big 2s 0s infinite;
+   }
+
+.topnav {
+    
+    align-items: stretch;
+    display: flex;
+    justify-content: space-around;
+    
+}   
+
+.topnav a{
+    color: aliceblue;
+    font-size: medium;
+    float:left;
+    text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10%;
+   padding-right: 10%;
+   flex-wrap: wrap;
+   text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #3333334f;
+    color: black;
+
+}
+
+#one {
+    background-color: #EF3D59;
+    
+}
+#two {
+    background-color: #E17417;
+}
+
+#thri {
+    background-color: #EFCD55;
+}
+
+#four {
+    background-color: #4ae19d;
+}
+
+#five {
+    background-color: #344e5c;
+}
+
+#lols {
+    margin-top: 50px;
+    font-family: 'Indie Flower';
+    font-size: large;
+    color: aliceblue;
+    text-align: center;
+}
+#headi{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Bangers';
+    color: aquamarine;
+}
+
+#pin, #fb, #git{
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.soc{
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff41;
+}
+#abc
+{
+    color: #43609C;
+    text-align: center;
+}
+#xyz{
+    color: aliceblue;
+    text-align: center;
+}
+
+.fb1:hover img{
+    transition:all 0.5s ease;
+
+}    
+.fb1:hover #fb{
+    transform: scale(1.2);
+}
+
+.pin1:hover img{
+    transition:all 0.5s ease;
+
+}    
+.pin1:hover #pin{
+    transform: scale(1.2);
+}
+.git1:hover img{
+    transition:all 0.5s ease;
+
+}    
+.git1:hover #git{
+    transform: scale(1.2);
+}
+.imgcont img{
+    transition: all 0.5s ease;
+}
+.imgcont:hover #pic1{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:800px){
+  
+    #pic1 {
+        margin-top: 10%;
+        padding: 10px;
+        border-color: aliceblue;
+        border-style: solid;
+        border-width: 10px;
+       border-radius: 50%;
+       height: 400px;
+       width:300px;
+       margin-left: 10px;
+       animation: big 2s 0s infinite;
+       }
+
+
+}

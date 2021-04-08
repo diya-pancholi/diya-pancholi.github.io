@@ -1,0 +1,87 @@
+table {
+    border: 2px solid wheat;
+    border-collapse:collapse;
+    background-color: black;
+    
+}
+td,th {
+    border:1px solid wheat;
+    border-collapse: collapse;
+    padding-top: 10px;
+    font-size: 1.25rem;
+    color:wheat;
+}
+.tablea{
+     width:100%;
+}
+h1{
+    font-family: 'bangers';
+    letter-spacing: 4px;
+    color:black;
+   
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: 'Beth Ellen';
+    color: black;
+    text-align: center;
+}
+body {
+    background-image: url('bg10.png') ;
+    background-size: cover;
+    
+
+}
+.container-1, .container-2{
+    display: flex;
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-1 div, .container-2 div{
+    border-style: solid wheat;
+    background-color: black;
+    color: goldenrod;
+    width: 40%;
+    text-align: center;
+    font-size: large;
+    min-width: 400px;
+    font-family: 'Cherry Cream Soda';
+}
+
+.container-2
+{
+    margin-top: 10px;
+    
+}
+
+
+.box-1{
+    animation:aone 1s 0s ease-in-out;
+}
+.box-2{
+    animation: aone 2s 0s ease-in-out;
+}
+.box-3{
+    animation: aone 3s 0s ease-in-out;
+}
+.box-4{
+    animation: aone 4s 0s ease-in-out;
+}
+
+@keyframes aone{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@media screen and(max-width:800px) {
+    .table1{
+        width: 100%;
+    }
+}
+
