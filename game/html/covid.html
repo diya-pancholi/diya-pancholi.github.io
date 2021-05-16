@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/time.css" />
+    <link rel="stylesheet" type="text/css" href="../css/covid.css" />
+    <title>Canvas resize</title>
+
+    <style></style>
+  </head>
+  <body>
+    <div id="contain">
+      <div id="box1">
+        <img id="man" src="../image/covid.jpg" alt="sneeze" />
+      </div>
+      <div id="box2">
+        <p id="topdisp">
+          <span id="highsc">lal</span><span id="nowsc">yay</span>
+        </p>
+      </div>
+    </div>
+    <canvas id="myCanvas"></canvas>
+
+    <p id="para">
+      <span id="time_left"><b>30</b></span>
+    </p>
+    <p>
+      <script src="../script/start.js"></script>
+      <script src="../script/covid.js"></script>
+
+      /*
+      <script>
+        console.log("onload");
+        window.onload = function () {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+              const games = document.createElement("script");
+              games.src = this.responseURL;
+              const html = document.querySelector("html");
+              html.appendChild(games);
+            }
+          };
+          xhttp.open("GET", "./covid.js");
+          xhttp.send();
+        };
+      </script>
+      */
+    </p>
+  </body>
+</html>

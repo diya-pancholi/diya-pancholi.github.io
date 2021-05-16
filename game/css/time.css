@@ -1,0 +1,15 @@
+#para {
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 5px;
+
+}
+canvas {
+    
+    background-color: white;
+}
+body {
+    margin:0;
+    background-color: white;
+}

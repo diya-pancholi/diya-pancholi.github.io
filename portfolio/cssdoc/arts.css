@@ -10,18 +10,18 @@ body {
 }
 #e1 {
     
-    padding: 10px;
+    padding:1rem;
     border-color: aliceblue;
     border-style: solid;
-    border-width: 10px;
+    border-width: 0.75rem;
    border-radius: 50%;
-   height: 300px;
-   width:300px;
+   height: 20rem;
+   width:20rem;
 }
 
 h1{
     color:goldenrod;
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
     font-family: 'Inknut Antiqua';
 }
@@ -31,34 +31,34 @@ h1{
     }
 
 #e2, #e3 {
-    padding: 10px;
+    padding: 1rem;
     border-color: aliceblue;
     border-style: solid;
-    border-width: 10px;
+    border-width: 0.5rem;
    border-radius: 50%;
-   height: 200px;
-   width:200px;}
+   height: 12rem;
+   width:12rem;}
    #e2{
-   margin-right: 20px;
+   margin-right: 1rem;
 }
 #e3 {
     
-   margin-left: 20px;
+   margin-left: 1rem;
 }  
 .rthri {
    
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 2rem;
 
 }
 #p1, #p2  {
-    padding: 10px;
-    border-color:black;
+    padding: 1rem;
+    border-color: white;
     border-style: solid;
-    border-width: 10px;
+    border-width: 0.5rem;
   
-   height: 500px;
-   width:350px;
+   height: 40rem;
+   width:30rem;
 }
 
 
@@ -67,23 +67,23 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 #p4, #certi{
     padding: 10px;
-    border-color:black;
+    border-color:white;
     border-style: solid;
     border-width: 10px;
   
-   height: 400px;
-   width:500px;
+   height: 30rem;
+   width:40rem;
 }
 
 .sport {
-    
+    display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 h2{
     color: goldenrod;
@@ -98,30 +98,33 @@ h2{
 
 @media screen and (max-width:800px) {
     #e2,  #e3 {
-        padding: 10px;
+        padding: 1rem;
         border-color: aliceblue;
         border-style: solid;
-        border-width: 10px;
+        border-width: 0.5rem;
        border-radius: 50%;
-       height: 200px;
-       width: 200px;
-       margin-right: 0px;
+       height: 15rem;
+       width: 15rem;
+       margin-right: 0rem;
     }
     #p1, #p2, #p4, #certi {
-        padding: 10px;
-        border-color:black;
+        padding: 1rem;
+        border-color:white;
         border-style: solid;
-        border-width: 10px;
+        border-width: 0.5rem;
     }
     #p1, #p2 {
-       height: 400px;
-       width:300px;
+       height: 20rem;
+       width:15rem;
     }
      
     #p4, #certi {
        
-       height: 250px;
-       width:350px;
+       height: 10rem;
+       width:15rem;
+    }
+    h1{
+        font-size: 3rem;
     }
     
 

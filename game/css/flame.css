@@ -1,0 +1,29 @@
+#para {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 5px;
+}
+canvas {
+  border: 1px solid rgb(224, 66, 216);
+  background-color: rgb(139, 134, 134);
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+#topdisp {
+  font-size: 2rem;
+  color: aliceblue;
+}
+#highscf {
+  float: right;
+  margin-right: 3rem;
+  color: aliceblue;
+}
+
+#nowscf {
+  float: right;
+  margin-right: 3rem;
+  color: aliceblue;
+}

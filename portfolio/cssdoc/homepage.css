@@ -11,14 +11,14 @@ body {
 }
 #pic1 {
     margin-top: 10%;
-    padding: 10px;
+    padding: 1rem;
     border-color: aliceblue;
     border-style: solid;
-    border-width: 10px;
+    border-width: 0.75rem;
    border-radius: 50%;
-   height: 500px;
-   width:360px;
-   margin-left: 200px;
+   height: 30rem;
+   width:21rem;
+   margin-left: 15rem;
    animation: big 2s 0s infinite;
    }
 
@@ -35,10 +35,10 @@ body {
     font-size: medium;
     float:left;
     text-align: center;
-   padding-top: 15px;
-   padding-bottom: 15px;
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 7%;
+   padding-right: 7%;
    flex-wrap: wrap;
    text-decoration: none;
 }
@@ -70,26 +70,26 @@ body {
 }
 
 #lols {
-    margin-top: 50px;
+    margin-top: 3rem;
     font-family: 'Indie Flower';
-    font-size: large;
+    font-size: 1.4rem;
     color: aliceblue;
     text-align: center;
 }
 #headi{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 8rem;
     font-family: 'Bangers';
     color: aquamarine;
 }
 
 #pin, #fb, #git{
-    padding: 20px;
-  font-size: 30px;
-  width: 30px;
+    padding: 1.5rem;
+  font-size: 2rem;
+  width: 2rem;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 0.5rem 0.25rem;
   border-radius: 50%;
 }
 .soc{
@@ -140,14 +140,14 @@ body {
   
     #pic1 {
         margin-top: 10%;
-        padding: 10px;
+        padding: 1rem;
         border-color: aliceblue;
         border-style: solid;
-        border-width: 10px;
+        border-width: 0.75rem;
        border-radius: 50%;
-       height: 400px;
-       width:300px;
-       margin-left: 10px;
+       height: 27rem;
+       width:18rem;
+       margin-left: 1rem;
        animation: big 2s 0s infinite;
        }
 

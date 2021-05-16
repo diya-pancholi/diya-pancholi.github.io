@@ -1,0 +1,35 @@
+#sneeze {
+display:none;
+}
+#topdisp {
+    font-size: 2rem;
+
+}
+#highsc {
+    float:right;
+    margin-right: 3rem;
+}
+
+#nowsc{
+    float: right;
+    margin-right: 3rem;
+}
+
+#man {
+    height:150px;
+    width: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    float: left;
+}
+
+#contain {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+canvas {
+    margin-top: 0;
+}
+
