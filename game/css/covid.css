@@ -1,35 +1,36 @@
 #sneeze {
-display:none;
+  display: none;
 }
 #topdisp {
-    font-size: 2rem;
-
+  font-size: 2rem;
 }
 #highsc {
-    float:right;
-    margin-right: 3rem;
+  float: right;
+  margin-right: 3rem;
 }
 
-#nowsc{
-    float: right;
-    margin-right: 3rem;
+#nowsc {
+  float: right;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
-
+#time_left {
+  float: right;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
 #man {
-    height:150px;
-    width: 150px;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 0;
-    float: left;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  float: left;
 }
 
 #contain {
-    display: flex;
-    
-    flex-wrap: wrap;
+  display: flex;
 }
 canvas {
-    margin-top: 0;
+  margin-top: 0;
 }
-

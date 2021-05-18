@@ -1,28 +1,25 @@
-#para {
-    text-align: center;
-    font-size: 40px;
-    color: #a9d962;
-    margin-top: 5px;
-
-}
 canvas {
-    
-    background-color:rgb(136, 100, 10);
+  background-color: rgb(136, 100, 10);
 }
 body {
-    margin:0;
-    background-color:rgb(136, 100, 10) ;
+  margin: 0;
+  background-color: rgb(136, 100, 10);
 }
 #topdisp {
-    font-size: 2rem;
-
+  font-size: 2rem;
+  color: #a9d962;
+}
+#time_left {
+  float: left;
+  font-size: 3rem;
+  margin-left: 3rem;
 }
 #highscfo {
-    float:right;
-    margin-right: 3rem;
+  float: right;
+  margin-right: 3rem;
 }
 
-#nowscfo{
-    float: right;
-    margin-right: 3rem;
+#nowscfo {
+  float: right;
+  margin-right: 3rem;
 }

@@ -15,37 +15,31 @@
       </div>
       <div id="box2">
         <p id="topdisp">
-          <span id="highsc">lal</span><span id="nowsc">yay</span>
+          <span id="highsc">best</span><span id="nowsc">now</span>
+          <span id="time_left">30</span>
         </p>
       </div>
     </div>
     <canvas id="myCanvas"></canvas>
 
-    <p id="para">
-      <span id="time_left"><b>30</b></span>
-    </p>
     <p>
       <script src="../script/start.js"></script>
       <script src="../script/covid.js"></script>
 
-      /*
       <script>
         console.log("onload");
         window.onload = function () {
           var xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
-              const games = document.createElement("script");
-              games.src = this.responseURL;
-              const html = document.querySelector("html");
-              html.appendChild(games);
+              const img = document.querySelector("#man");
+              img.src = this.responseURL;
             }
           };
-          xhttp.open("GET", "./covid.js");
+          xhttp.open("GET", "../image/covid.jpg", true);
           xhttp.send();
         };
       </script>
-      */
     </p>
   </body>
 </html>

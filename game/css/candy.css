@@ -5,6 +5,10 @@
   float: right;
   margin-right: 3rem;
 }
+#time_left {
+  float: left;
+  margin-left: 3rem;
+}
 
 #nowscc {
   float: right;

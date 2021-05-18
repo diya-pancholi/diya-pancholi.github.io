@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       if (gameover == "gameover") {
-        window.location.replace("../html/index.html");
+        window.location.replace("../index1.html");
       }
       timedisplay.innerHTML = timeLeft;
       timeLeft--;
